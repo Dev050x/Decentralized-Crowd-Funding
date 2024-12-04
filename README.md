@@ -1,9 +1,34 @@
+# Web3 Crowdfunding App
 
+This Web3 crowdfunding application allows users to create campaigns, contribute to them, track progress, and manage tier-based rewards. It leverages Solidity smart contracts for decentralized logic and is built using Remix IDE, Thirdweb, and the Thirdweb SDK to enable scalable deployment and seamless contract management.
 
+## LINK
 
-# thirdweb-next-starter
+https://www.youtube.com/watch?v=r_kjdqbPFiM
 
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
+## Features
+
+- **Tier Management**: Campaign creators can define contribution tiers with varying rewards based on the amount contributed.
+- **Campaign Tracking**: Users and creators can track the campaign’s progress, including total funds raised and remaining time.
+- **Refund Mechanism**: If a campaign fails to reach its funding goal, contributors are automatically refunded.
+- **Decentralized**: Powered by Solidity smart contracts on the Ethereum blockchain for transparency and security.
+- **Scalable Deployment**: Utilizes Thirdweb SDK for simple contract management and scalability.
+
+## Tech Stack
+
+- **Solidity**: Smart contracts for crowdfunding logic, including tier management, fund collection, and refunds.
+- **Remix IDE**: Development and deployment environment for writing and testing Solidity contracts.
+- **Thirdweb SDK**: Interface for managing smart contract deployments and interactions.
+- **Ethereum**: Blockchain for executing transactions and managing crowdfunding campaigns.
+
+## Installation
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm or yarn
+- Remix IDE (for smart contract development and deployment)
+- A wallet (e.g., MetaMask) for interacting with the Ethereum network
 
 ## Installation
 
